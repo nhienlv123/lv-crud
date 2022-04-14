@@ -1,12 +1,12 @@
 <?php
 
-// PostController.php
+
 
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Resources\PostCollection;
-use App\Post;
+use App\Models\Post;
 
 class PostController extends Controller
 {
